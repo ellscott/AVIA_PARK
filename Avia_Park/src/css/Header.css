@@ -1,0 +1,67 @@
+.header-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  gap: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: steelblue;
+  background-color: azure;
+}
+
+.work {
+  text-align: start;
+  font-weight: bold;
+}
+
+.clock-icon {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.circled {
+  background-color: steelblue;
+  color: azure;
+  padding: 15px;
+  border-radius: 100%;
+}
+
+.pvc {
+  padding: 15px;
+}
+
+.lang {
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.working-time {
+  display: flex;
+  font-size: 13px;
+}
+
+.button-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.button {
+  background-color: azure;
+  border: 1px;
+  border-style: solid;
+  border-color: steelblue;
+  color: steelblue;
+}
+
+.logo {
+  font-size: 10px;
+  margin: auto;
+}

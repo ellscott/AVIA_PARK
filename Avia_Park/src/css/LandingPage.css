@@ -1,0 +1,138 @@
+body {
+  background-color: steelblue;
+}
+
+.content {
+  height: 75vh;
+  display: grid;
+  margin-top: 150px;
+  grid-template-columns: 54vw 19vw 19vw;
+  margin-left: 60px;
+  margin-left: 60px;
+  gap: 0;
+  color: azure;
+  margin-bottom: 30px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  mix-blend-mode: color;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: brightness(0.4);
+}
+
+.item-1 {
+  position: relative;
+  display: flex;
+}
+
+.image-text-1 {
+  padding: 10px;
+  border-radius: 15px;
+  color: azure;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+}
+
+.image-text-2 {
+  color: azure;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.item-2 {
+  height: 526px;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.item-2-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 208, 139);
+  align-items: center;
+  justify-content: center;
+}
+
+.item-2-1 h1 {
+  margin-bottom: 0;
+}
+
+.item-2-1 p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.item-2-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(3, 80, 108);
+  align-items: center;
+  justify-content: center;
+}
+
+.item-2-2 h1 {
+  margin-bottom: 0;
+}
+
+.item-2-2 p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.item-3 {
+  height: 526px;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.item-3-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(201, 24, 59);
+  align-items: center;
+  justify-content: center;
+}
+
+.item-3-1 p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.item-3-1 h1 {
+  margin-bottom: 0;
+}
+
+.item-3-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 16, 172);
+  align-items: center;
+  justify-content: center;
+}
+
+.item-3-2 p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.item-3-2 h1 {
+  margin-bottom: 0;
+}

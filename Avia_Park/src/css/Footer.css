@@ -1,0 +1,31 @@
+.footer-container {
+  max-height: -60%;
+  width: 99vw;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.copyright {
+  color: azure;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.contact-container {
+  color: azure;
+  position: absolute;
+  right: 40px;
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  align-content: center;
+}
+
+.contact {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
